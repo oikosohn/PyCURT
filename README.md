@@ -11,7 +11,7 @@ PyCURT supports only Python>3.5 and it has been tested only on Linux (Ubuntu) pl
 We very strongly recommend you install PyCURT in a virtual environment. [Here is a quick how-to for Ubuntu](https://linoxide.com/linux-how-to/setup-python-virtual-environment-ubuntu/). [Conda enviroments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) can also be used.
 Before installing PyCURT, there are two external tools that need to be installed:
 1. [dcm2niix](https://github.com/rordenlab/dcm2niix/releases/tag/v1.0.20200331) which is required to convert imaging data from DICOM to Nifti. Following the link, you will be prompted to download the pre-compiled version (choose Linux os).
-2. [plastimatch](https://www.plastimatch.org/) which is required to process RT data. You can download pre-compiled binaries or build it from source.
+2. [plastimatch](https://plastimatch.org/) which is required to process RT data. You can download pre-compiled binaries or build it from source.
 
 Once those two tools are installed, you can install PyCURT. You can do it by typing the following few steps in a terminal:
 1. Clone this repository, `git clone https://github.com/TransRadOnc-HIT/PyCURT.git`.
